@@ -7,3 +7,6 @@ su
 sudo -s
 gcc test.c
 gcc test.c -o
+sudo -s
+git init
+sudo -s
