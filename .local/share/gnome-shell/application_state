@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="20" last-seen="1643689774"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="1386" last-seen="1643689755"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="40" last-seen="1643691741"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="1691" last-seen="1643692270"/>
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="4" last-seen="1643645174"/>
   </context>
 </application-state>
