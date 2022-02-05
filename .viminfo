@@ -8,7 +8,13 @@
 # hlsearch on (H) or off (h):
 ~H
 # Command Line History (newest to oldest):
+:wq!
 :wq
+:e
+:q
+:set fileencoding=utf-8
+:set fileencoding
+:utf-8
 
 # Search String History (newest to oldest):
 
@@ -18,27 +24,68 @@
 
 # Input Line History (newest to oldest):
 
-# Registers:
+# 寄存器:
 
-# File marks:
-'0  7  0  ~/test.c
-'1  6  8  ~/test.c
+# 文件标记:
+'0  12  10  ~/test.c
+'1  14  6  ~/test.c
+'2  5  10  ~/test.c
+'3  1  16  ~/test.c
+'4  1  0  ~/p
+'5  13  0  ~/test.c
 
-# Jumplist (newest first):
+# 跳转列表 (从新到旧):
+-'  12  10  ~/test.c
+-'  14  4  ~/test.c
+-'  5  2  ~/test.c
+-'  1  0  ~/test.c
+-'  1  0  ~/p
+-'  13  0  ~/test.c
+-'  1  0  ~/p
 -'  7  0  ~/test.c
 -'  6  2  ~/test.c
--'  1  0  ~/test.c
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
+-'  1  0  ~/p
 
-# History of marks within files (newest to oldest):
+# 文件内的标记历史记录 (从新到旧):
 
 > ~/test.c
-	"	7	0
-	^	7	1
-	.	1	7
+	"	12	10
+	^	12	11
+	.	12	9
 	+	1	18
-	+	4	0
+	+	10	0
+	+	12	0
+	+	10	19
+	+	11	10
+	+	12	8
+	+	1	10
+	+	3	1
 	+	6	0
-	+	4	19
 	+	5	10
-	+	6	8
-	+	1	7
+	+	4	25
+	+	1	16
+	+	10	17
+	+	12	10
+	+	10	28
+	+	12	9
+
+> ~/p
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+	+	1	0
+	+	1	0

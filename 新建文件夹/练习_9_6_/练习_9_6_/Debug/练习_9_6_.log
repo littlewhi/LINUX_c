@@ -1,4 +1,0 @@
-﻿  test.c
-e:\新建文件夹\练习_9_6_\练习_9_6_\test.c(45): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
-  d:\windows kits\10\include\10.0.17763.0\ucrt\stdlib.h(1323): note: 参见“itoa”的声明
-  练习_9_6_.vcxproj -> E:\新建文件夹\练习_9_6_\Debug\练习_9_6_.exe

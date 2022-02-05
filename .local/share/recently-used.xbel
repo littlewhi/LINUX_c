@@ -3,7 +3,7 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/yangmin/test.c" added="2022-01-31T16:05:46Z" modified="2022-01-31T16:05:46Z" visited="2022-01-31T16:05:46Z">
+  <bookmark href="file:///home/yangmin/test.c" added="2022-01-31T16:05:46Z" modified="2022-02-04T13:02:45Z" visited="2022-01-31T16:05:46Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/x-csrc"/>
@@ -11,7 +11,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-01-31T16:05:46Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2022-02-04T13:02:45Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
