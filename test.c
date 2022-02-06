@@ -1,66 +1,80 @@
 #include<stdio.h>
 
-/*int remov(int* nums, int numsSize, int val)
-{ 
-  int left = 0;
-  int right = numsSize - 1;
-  while( left <= right)
+/*忽略了一个最大的问题,就是子串与母串之间的长度关系
+int strStr(char* haystack,char* needle)
+{
+  int ph = 0,pn = 0;
+  if(*(needle) == '\0')
+    return 0;
+  while(*(haystack + ph))
   {
-    int temp;
-    while((left <= right) && (*(nums + right) == val))
-      right--;
-    while((left <= right) && (*(nums + left) != val))
-      left++;
-    if(left < right)
-    {
-      temp = *(nums + left);
-      *(nums + left) = *(nums + right);
-      *(nums + right) = temp;
-    }
+    if(*(haystack + ph) == *(needle + pn))
+      {
+        while(*(needle + pn) && (*(haystack + ph + pn) == *(needle + pn)))
+          ++pn;
+        if(!*(needle + pn))
+          return ph;
+        ++ph,pn=0;
+      }
+    else
+      {
+        ++ph;
+      }
   }
-  return (left);
+  return -1; 
 }
 */
-/*int main()
+/*
+int main()
 {
-  int i = 0;
-  int arr[]={0};
-  int len = sizeof(arr) / sizeof(arr[0]);
-  len = remov(arr,len,5);
-  for(i = 0;i < len;i++)
-  {
-    printf("%d ",arr[i]);
-  }
-  printf("\n");
-}*/
+  char a[] = "abcdef";
+  char b[] = "cde";
+  int i = strStr(a,b);
+  if(i == -1)
+    printf("不存在子串\n");
+  else if(0 == i)
+    printf("子串为空字符串\n");
+  else
+    printf("存在子串,下标为%d\n",i);
+  return 0;
+}
+*/
+#include<string.h>
 
-int remov(int* nums,int numsSize,int val)
+int strStr(char* haystack,char* needle)
 {
-  int left = 0;
-  int right = numsSize;
-  while(left < right)
+  int len_h = strlen(haystack),ph = 0;
+  int len_n = strlen(needle),pn = 0;
+  for(;ph + len_n <= len_h;ph++)
   {
-    if(*(nums + left) == val)
-    {
-      *(nums+left) = *(nums+right - 1);
-      right--;
-    }
-    else
-      left++;
+    int flag = 1;
+      for(pn = 0;pn<len_n;pn++)
+        {
+         if(*(haystack + ph + pn) != *(needle + pn))
+           {
+             flag = 0;
+             break;
+           }  
+        }
+      if(flag)
+         return ph;
   }
-
+  return -1;
 }
 
 int main()
 {
-  int i = 0;
-  int arr[]={0};
-  int len = sizeof(arr) / sizeof(arr[0]);
-  len = remov(arr,len,5);
-  for(i = 0;i < len;i++)
-  {
-    printf("%d ",arr[i]);
-  }
-  printf("\n");
+  char a[] = "abcdef";
+  char b[] = "cde";
+  int i = strStr(a,b);
+  if(i == -1)
+    printf("不存在子串\n");
+  else if(0 == i)
+    printf("子串为空字符串\n");
+  else
+    printf("存在子串,下标为%d\n",i);
+  return 0;
 }
+
+
 

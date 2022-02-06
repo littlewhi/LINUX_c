@@ -1,11 +1,11 @@
-[ 1643975180.904739]: IMSettings-Daemon[2059]: INFO: Starting imsettings-daemon...
-[ 1643975180.904837]: IMSettings-Daemon[2059]: INFO:   [HOME=/home/yangmin/.config/imsettings]
-[ 1643975180.904853]: IMSettings-Daemon[2059]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
-[ 1643975180.904868]: IMSettings-Daemon[2059]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+[ 1644041678.692727]: IMSettings-Daemon[2089]: INFO: Starting imsettings-daemon...
+[ 1644041678.692826]: IMSettings-Daemon[2089]: INFO:   [HOME=/home/yangmin/.config/imsettings]
+[ 1644041678.692841]: IMSettings-Daemon[2089]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1644041678.692854]: IMSettings-Daemon[2089]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
 
-[ 1643975180.904881]: IMSettings-Daemon[2059]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+[ 1644041678.692867]: IMSettings-Daemon[2089]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
 
-[ 1643975180.904895]: IMSettings-Daemon[2059]: INFO:   [MODULES=gsettings]
+[ 1644041678.692881]: IMSettings-Daemon[2089]: INFO:   [MODULES=gsettings]
 
 imsettings information
 ==========================
@@ -18,7 +18,7 @@ DESKTOP: gnome-classic
 GUESS_DESKTOP: $GDMSESSION
 DISABLE_IMSETTINGS: 
 IMSETTINGS_DISABLE_DESKTOP_CHECK: 
-DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-zkkud3j72m,guid=1caa76b63f910866f55de89461fd120c
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-Y8XIWWqLDi,guid=0673b3cd6519c8f05f336e9761fe15ce
 GTK_IM_MODULE: 
 QT_IM_MODULE: 
 XMODIFIERS: 
@@ -26,3 +26,11 @@ IMSETTINGS_MODULE: none
 IMSETTINGS_INTEGRATE_DESKTOP: yes
 
 org.gnome.SettingsDaemon.Keyboard.desktop exists. imsettings is going to be disabled.
+
+[ 1644056087.964484]: GLib-GIO[2089]: WARNING **: Error releasing name com.redhat.imsettings: The connection is closed
+
+[ 1644056087.964731]: GLib-GIO[2089]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+
+[ 1644056087.964766]: GLib-GIO[2089]: CRITICAL **: Error while sending AddMatch() message: The connection is closed
+[ 1644056087.964846]: IMSettings-Daemon[2089]: INFO: Unloading imesttings module: gsettings
+[ 1644056087.965017]: IMSettings-Daemon[2089]: INFO: imsettings-daemon is shut down.
