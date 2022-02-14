@@ -56,3 +56,70 @@ vim test.c
 gcc test.c
 ./a.out
 sudo -s
+gcc -ggdb3 test.c
+./a.out
+gdb a
+vim test.c
+gcc test.c
+./a.out
+vim test.c
+gcc -ggdb3 test.c
+gdb
+gcc -ggdb3 test.c
+gdb a
+gcc test.c
+./a.out
+vim test.c
+gcc test.c
+./a.out
+vim test.c
+gcc test.c
+./a.out
+vim test.c
+gcc test.c
+./a.out
+vim test.c
+gcc test.c
+./a.out
+vim test.c
+shutdown -h now
+vim test.c
+shutdown -h now
+sudo -s
+vim test.c
+vim test.c
+vi test.c
+vim test.c
+ls
+rm a
+rm a.out
+rm test.c
+vim test.c
+vim vimrc
+cd vimrc
+ls
+vim test.c
+gcc -g test.c
+gdb a.out
+vim test.c
+gdb test.c
+gcc -g test.c
+gdb a.out
+gcc -g test.c
+gdb a.out
+gcc -g test.c
+gdb a.out
+gcc -g test.c
+gdb a.out
+gcc -g test.c
+gcc test.c
+vi test.c
+gcc test.c
+vim test.c
+gcc test.c
+vim test.c
+gcc test.c
+vim test.c
+shutdown -h now
+gcc -g test.c
+gdb a.out
