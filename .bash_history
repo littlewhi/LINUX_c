@@ -123,3 +123,33 @@ vim test.c
 shutdown -h now
 gcc -g test.c
 gdb a.out
+vim test.c
+gcc test.c
+./a.out
+vim test.c
+git add --all
+cd root
+sudo -s
+ls
+rm test.c
+rm a.out
+vim test.c
+gcc -g test.c
+vim test.c
+gcc test.c
+vim test.c
+gcc test.c
+gcc -g test.c
+gdb test.c
+gdb a.out
+gcc -g test.c
+gdb a.out
+gcc -g test.c
+gdb a.out
+gcc -g test.c
+gdb a.out
+vim test.c
+sudo -s
+vim test.c
+vim a.c
+shutdown -h now
