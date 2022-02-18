@@ -7,11 +7,14 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Search Pattern:
+~Msle0~/\<left\>
+
 # Command Line History (newest to oldest):
-:wq
-:w
 :q!
 :q
+:wq
+:w
 :wq!
 :e
 :set fileencoding=utf-8
@@ -19,6 +22,7 @@
 :utf-8
 
 # Search String History (newest to oldest):
+? \<left\>
 
 # Expression History (newest to oldest):
 
@@ -34,18 +38,29 @@
 <i€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€ku€kr€kd€kr€kr€kb€kbwhile€kr€kr€ku€ku€ku€ku€ku€kui€ku€kr€ku€kr€ku€ku€kd€kd€kd€kd€kd€ku€kl€kl€kl€kl€kl€kr€kb€ku€ku€ku€kr€ku€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kbm€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd€kd:w€ku€ku€ku€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kr€kl€kl€kl€kb€kri€kb3:q€kbwgqi€ku€ku€ku€kr€kb€ku€kui€krq€kb
 
 # æ–‡ä»¶æ ‡è®°:
-'0  77  90  ~/a.c
-'1  1  0  ~/t.c
-'2  45  0  ~/a.c
-'3  17  18  ~/a.c
-'4  38  0  ~/test.c
-'5  1  12  ~/test.c
-'6  32  22  ~/test.c
-'7  7  15  ~/test.c
-'8  122  0  ~/test.c
-'9  75  0  ~/test.c
+'0  2  0  ~/tree2.c
+'1  43  0  ~/tree.h
+'2  44  2  ~/tree.c
+'3  4  17  ~/tree.c
+'4  41  0  ~/tree.c
+'5  47  0  ~/tree.c
+'6  6  2  ~/tree2.c
+'7  77  90  ~/a.c
+'8  1  0  ~/t.c
+'9  45  0  ~/a.c
 
 # è·³è½¬åˆ—è¡¨ (ä»Žæ–°åˆ°æ—§):
+-'  2  0  ~/tree2.c
+-'  6  2  ~/tree2.c
+-'  43  0  ~/tree.h
+-'  1  0  ~/tree.h
+-'  44  2  ~/tree.c
+-'  4  0  ~/tree.c
+-'  41  0  ~/tree.c
+-'  12  17  ~/tree.c
+-'  47  0  ~/tree.c
+-'  1  0  ~/tree.c
+-'  1  0  ~/tree2.c
 -'  77  90  ~/a.c
 -'  45  3  ~/a.c
 -'  1  0  ~/t.c
@@ -133,19 +148,104 @@
 -'  1  0  ~/p
 -'  1  0  ~/p
 -'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
--'  1  0  ~/p
 
 # æ–‡ä»¶å†…çš„æ ‡è®°åŽ†å²è®°å½• (ä»Žæ–°åˆ°æ—§):
+
+> ~/tree2.c
+	"	2	0
+	^	2	0
+	.	2	0
+	+	7	0
+	+	6	10
+	+	4	0
+	+	2	0
+
+> ~/tree.h
+	"	43	0
+	^	46	1
+	.	41	1
+	+	47	3
+	+	41	1
+
+> ~/tree.c
+	"	44	2
+	^	4	18
+	.	4	17
+	+	47	0
+	+	46	9
+	+	15	9
+	+	14	1
+	+	11	15
+	+	13	23
+	+	1	22
+	+	8	15
+	+	6	18
+	+	15	17
+	+	18	1
+	+	15	9
+	+	18	11
+	+	19	9
+	+	15	0
+	+	20	4
+	+	16	4
+	+	20	9
+	+	14	6
+	+	9	7
+	+	14	1
+	+	16	25
+	+	21	27
+	+	22	22
+	+	43	7
+	+	14	11
+	+	46	1
+	+	24	0
+	+	40	0
+	+	39	33
+	+	39	3
+	+	39	4
+	+	39	26
+	+	39	13
+	+	24	27
+	+	39	24
+	+	39	3
+	+	27	9
+	+	28	18
+	+	29	14
+	+	30	9
+	+	24	0
+	+	30	9
+	+	39	3
+	+	30	15
+	+	38	45
+	+	32	0
+	+	39	0
+	+	38	24
+	+	38	82
+	+	38	42
+	+	39	0
+	+	33	41
+	+	39	3
+	+	40	0
+	+	38	23
+	+	38	23
+	+	37	17
+	+	30	3
+	+	25	4
+	+	34	12
+	+	35	17
+	+	4	0
+	+	1	16
+	+	3	16
+	+	45	1
+	+	35	2
+	+	45	11
+	+	44	10
+	+	45	13
+	+	44	1
+	+	20	21
+	+	12	17
+	+	13	17
+	+	4	17
 
 > ~/a.c
 	"	77	90

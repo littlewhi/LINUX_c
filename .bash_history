@@ -153,3 +153,36 @@ sudo -s
 vim test.c
 vim a.c
 shutdown -h now
+vim t.c
+ls
+a.c
+vim a.c
+sudo -s
+ls
+rm a.c
+rm a,out
+rm a.out
+rm test.c
+shutdown -h now
+vim tree2.c
+exit
+vim tree2.c
+shutdown -h now
+shutdown -h now
+vim tree.c
+vim tree.c
+gcc tree.c
+vim tree.c
+gcc tree.c
+./a.out
+gcc -g tree.c
+./a.out
+gdb a.out
+mv tree.c tree.h
+vim tree.h
+ls
+clear
+ls
+tree2.c
+vim tree2.c
+shutdown -h now
