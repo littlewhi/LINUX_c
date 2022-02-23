@@ -1,11 +1,11 @@
-[ 1645181503.025528]: IMSettings-Daemon[2054]: INFO: Starting imsettings-daemon...
-[ 1645181503.025628]: IMSettings-Daemon[2054]: INFO:   [HOME=/home/yangmin/.config/imsettings]
-[ 1645181503.025644]: IMSettings-Daemon[2054]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
-[ 1645181503.025657]: IMSettings-Daemon[2054]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
+[ 1645613194.099206]: IMSettings-Daemon[2053]: INFO: Starting imsettings-daemon...
+[ 1645613194.099304]: IMSettings-Daemon[2053]: INFO:   [HOME=/home/yangmin/.config/imsettings]
+[ 1645613194.099321]: IMSettings-Daemon[2053]: INFO:   [XINPUTRCDIR=/etc/X11/xinit/]
+[ 1645613194.099366]: IMSettings-Daemon[2053]: INFO:   [XINPUTDIR=/etc/X11/xinit/xinput.d/]
 
-[ 1645181503.025670]: IMSettings-Daemon[2054]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
+[ 1645613194.099400]: IMSettings-Daemon[2053]: INFO:   [MODULEDIR=/usr/lib64/imsettings]
 
-[ 1645181503.025684]: IMSettings-Daemon[2054]: INFO:   [MODULES=gsettings]
+[ 1645613194.099434]: IMSettings-Daemon[2053]: INFO:   [MODULES=gsettings]
 
 imsettings information
 ==========================
@@ -18,7 +18,7 @@ DESKTOP: gnome-classic
 GUESS_DESKTOP: $GDMSESSION
 DISABLE_IMSETTINGS: 
 IMSETTINGS_DISABLE_DESKTOP_CHECK: 
-DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-pHDTT1cJis,guid=b11894a0dffa85207cda06f0620f7a3e
+DBUS_SESSION_BUS_ADDRESS: unix:abstract=/tmp/dbus-5jixsmOw1y,guid=9ffc568b026015e65d81e84d62161089
 GTK_IM_MODULE: 
 QT_IM_MODULE: 
 XMODIFIERS: 

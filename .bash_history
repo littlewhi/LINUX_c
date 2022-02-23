@@ -186,3 +186,10 @@ ls
 tree2.c
 vim tree2.c
 shutdown -h now
+sudo -s
+ls
+vim test.c
+gcc test.c
+./a.out
+vim test.c
+shutdown -h now
