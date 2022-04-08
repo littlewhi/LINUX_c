@@ -45,20 +45,20 @@ bool isSameTree(struct TreeNode* p, struct TreeNode* q)
    struct TreeNode* rtr2 = *(que2+left2)->right;
    if((!ltr1 && ltr2) || (ltr1 && !ltr2))//左右节点的比较
 	   return false;
-   if((!rtr1 && rtr2) || (rtr1 && !rtr2))/*(rtr1 ^ rtr2)好并且快*/
+   if((!rtr1 && rtr2) || (rtr1 && !rtr2))/*((rtr1==NULL) ^ (rtr2==NULL))好并且快*/
 	   return false;
    if(ltr1)//若左节点不为空,入队
    {
-	   que1 = (struct TreeNode**)realloc(sizeof(struct TreeNode**)*++right1);
+	   que1 = (struct TreeNode**)realloc(que1,sizeof(struct TreeNode**)*++right1);
 	   *(que1+right1-1) = ltr1;
-	   que2 = (struct TreeNode**)realloc(sizeof(struct TreeNode**)*++right2);
+	   que2 = (struct TreeNode**)realloc(que2,sizeof(struct TreeNode**)*++right2);
 	   *(que2+right2-1) = ltr2;
    }
    if(rtr1)//若右节点不为空,入队
    {
-       que1 = (struct TreeNode**)realloc(sizeof(struct TreeNode**)*++right1);
+       que1 = (struct TreeNode**)realloc(que1,sizeof(struct TreeNode**)*++right1);
 	   *(que1+right1-1) = rtr1;
-	   que2 = (struct TreeNode**)reallco(sizeof(struct TreeNode**)*++right2);
+	   que2 = (struct TreeNode**)reallco(que2,sizeof(struct TreeNode**)*++right2);
 	   *(que2+right2-1) = rtr2;
    }
  }

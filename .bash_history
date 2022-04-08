@@ -193,3 +193,173 @@ gcc test.c
 ./a.out
 vim test.c
 shutdown -h now
+ls
+vim test.c
+vim tree2.c
+cat -n rsyslog.conf
+cat -n tree2.c
+clear
+vim tree2.c
+sudo -s
+shutdown -h now
+ls
+vim tree2.c
+shutdown -h now
+ls
+vim work1.c
+shutdown -h now
+sudo -s
+abrabrt-cli list --since 1646374172
+cd abrt
+sudo -s
+top
+abrabrt-cli list --since 1646374172
+sudo -s
+ls
+vim work1.c
+vim work2.c
+vim work1.c
+gcc work1.c
+vim work1.c
+gcc work1.c
+vim work1.c
+gcc work1.c
+./a.out
+gcc wrok1.c
+gcc work1.c
+./a.out
+vim work1.c
+gcc work1.c
+vim work1.c
+gcc work1.c
+./a.out
+shutdown -h now
+ls
+vim work1.c
+shutdown -h now
+vim work1.c
+gcc -g -c work1.c
+vim work1.c
+gcc work1.c
+./a.out
+vim work1.c
+gcc work1.c
+./a.out
+gcc -c -g work1.c
+gdb work1.c
+gdb work1
+gdb a.out
+gcc -g work1.c
+gdb a.out
+vim work1.c
+gcc -g work1.c
+gdb a.out
+gcc -g work1.c
+gdb a.out
+gcc -g work1.c
+gdb a.out
+gcc -g work1.c
+gdb a.out
+vim work1.c
+vim wrok1.c
+vim work1.c
+cd pacman
+cd PacMan
+Pacman
+cd Pacman
+cd Pavman
+ls
+cd PacVim
+pacvim
+shutdown -h now
+vim work1.c
+shutdown -h now
+ls
+gcc -g work1.c
+clear
+gcc -g work1.c
+./a.out
+gcc -g work1.c
+./a.out
+vim work1.c
+gcc -g work1.c
+./a.out
+gdb a.out
+gcc -g work1.c
+gdb a.out
+gcc -g work1.c
+gdb a.out
+gcc -g work1.c
+gdb a.out
+gcc -g work1.c
+./a.out
+vim work1.c
+gcc -g work1.c
+vim work1.c
+gcc -g work1.c
+./a.out
+gdb a.out
+n
+gdb a.out
+sudo -s
+vim work3.c
+gcc -g work1.c
+./a.out
+vim work1.c
+gcc -g work1.c
+./a.out
+gdb a.out
+vim work1.c
+gcc -g work1.c
+./a.out
+gdb a.out
+vim work1.c
+gcc -g work1.c
+vim work1.c
+gcc -g work1.c
+./a.out
+vim work1.c
+gcc -g work1.c
+./a.out
+top
+gcc -g work1.c
+./a.out
+vim work3.c
+gcc -g work3.c
+./a.out
+gdb a.out
+vim work3.c
+gcc -g work3.c
+./a.out
+gcc -g work3.c
+gdb a.out
+vim work1.c
+shutdown
+shutdown -h now
+sudo -s
+ls
+cd work1.c
+vim work1.c
+ls
+vim graphic.h
+vim graph.c
+gcc -g graph.c
+vim graph.c
+gcc -g graph.c
+./a.out
+gcc -g graph.c
+./a.out
+vim graph.c
+gcc -g graph.c
+./a.out
+vim graph.c
+gcc -g graph.c
+vim graph.c
+gcc -g graph.c
+./a.out
+vim graph.c
+gcc -g graph.c
+./a.out
+vim graph.c
+shutdown -h
+sudo -s
